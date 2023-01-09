@@ -48,7 +48,7 @@ keywords = ["api", "rest", "http", "asgi", "esmerald", "pydantic", "starlette", 
 [project.urls]
 Homepage = "https://github.com/dymmond/esmerald-timing"
 Documentation = "https://github.com/dymmond/esmerald-timing"
-Changelog = "https://dymmond.com/changelog/"
+Changelog = "https://dymmond.com/esmerald-timing/changelog/"
 Funding = "https://github.com/sponsors/tarsil"
 Source = "https://github.com/dymmond/esmerald-timing"
 
