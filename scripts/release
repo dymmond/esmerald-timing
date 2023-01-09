@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-VERSION_FILE="esmerald_datadog/__init__.py"
+VERSION_FILE="esmerald_timing/__init__.py"
 
 if [ "$VIRTUAL_ENV" != '' ]; then
     export PREFIX="$VIRTUAL_ENV/bin/"
