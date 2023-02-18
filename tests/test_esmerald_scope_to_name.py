@@ -39,7 +39,7 @@ def test_esmerald_scope_metric_class_based_endpoint(scope):
     esmerald_app = Esmerald(routes=[Gateway(handler=HowClassy)])
 
     metric_namer = EsmeraldScopeToName("myapp", esmerald_app, fallback=mock.MagicMock())
-    assert metric_namer(scope(path="/howclassy")) == "myapp.test_esmerald_scope_to_name./howclassy"
+    assert metric_namer(scope(path="/howclassy")) == "myapp.test_esmerald_scope_to_name.howclassy"
 
 
 def test_esmerald_scope_metric_uses_name_if_found(scope):
